@@ -34,7 +34,7 @@ Before running the application, ensure you have Python installed on your machine
 To run PlagioSleuth, place your text documents (with the .txt extension) in the project directory. Then, execute the following command:
 
 ```bash
-cd PlagioSleuth
+cd PlagioSleuth-Using-Cosine-Similarity
 streamlit run app.py 
 ```
 
