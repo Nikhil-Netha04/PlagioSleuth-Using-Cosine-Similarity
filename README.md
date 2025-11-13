@@ -19,12 +19,10 @@ Higher score → greater similarity → higher chance of plagiarism.
 ---
 
 ## 📥 Getting Started
-
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/nikhilsambarapu8978/PlagioSleuth
-cd PlagioSleuth
-
+git clone https://github.com/Nikhil-Netha04/PlagioSleuth-Using-Cosine-Similarity
+cd PlagioSleuth-Using-Cosine-Similarity
 ## Dependencies
 
 Before running the application, ensure you have Python installed on your machine. You will need to install the required dependencies. To do this, navigate to the project directory and run the following command:
