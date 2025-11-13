@@ -1,19 +1,29 @@
-# PlagioSleuth
+# 🚀 PlagioSleuth – Text File Plagiarism Checker
 
-PlagioSleuth is a Python-based plagiarism detection tool that helps users identify similarities between text documents using **cosine similarity**. Whether you're a student checking your assignments or a teacher reviewing submissions, PlagioSleuth provides an easy and efficient way to ensure originality in written work.
+PlagioSleuth is a **Streamlit-based plagiarism detection tool** that compares multiple text files and identifies similarity levels using **TF-IDF** and **Cosine Similarity**.  
+With a clean and interactive UI, users can upload `.txt` documents and instantly receive plagiarism results.
 
+---
 
-## How It Works
+## 📌 How It Works
 
-PlagioSleuth transforms text documents into numerical vectors using the **TF-IDF (Term Frequency-Inverse Document Frequency)** method. By calculating the cosine similarity between these vectors, it determines the level of similarity between documents. The higher the similarity score, the more likely it is that plagiarism has occurred.
+PlagioSleuth uses two core techniques:
 
-## Getting Started
+### 🔹 TF-IDF (Term Frequency–Inverse Document Frequency)
+Converts each text file into a weighted numerical vector based on word importance.
 
-To get started with PlagioSleuth, clone or download the repository to your local machine:
+### 🔹 Cosine Similarity
+Measures similarity between document vectors.  
+Higher score → greater similarity → higher chance of plagiarism.
 
+---
+
+## 📥 Getting Started
+
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/nikhilsambarapu8978/PlagioSleuth
-```
+cd PlagioSleuth
 
 ## Dependencies
 
@@ -27,7 +37,7 @@ To run PlagioSleuth, place your text documents (with the .txt extension) in the 
 
 ```bash
 cd PlagioSleuth
-python app.py
+streamlit run app.py 
 ```
 
 ## Output Examples
